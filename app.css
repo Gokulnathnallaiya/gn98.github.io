@@ -79,8 +79,8 @@ li{
 .companylogo{
     margin-left:70px;
     background-color: red;
-    width:50vw;
-    height:50vh;
+    width:40vw;
+    height:40vh;
 }
 .description{
     margin-left:50px;
@@ -103,9 +103,25 @@ li{
 }
 .projects{
     
-    
+    display: flex;
     width:90%;
-    margin:30px;
+    margin:auto;
+    min-height: 80vh;
+    align-items:center;
+    animation-name:test;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    
+    
+    
+}
+.projects2{
+    
+    
+    display: flex;
+  flex-direction: row;
+    width:90%;
+    margin:auto;
     min-height: 80vh;
     align-items:center;
     animation-name:test;
