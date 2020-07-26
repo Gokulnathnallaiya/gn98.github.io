@@ -173,6 +173,11 @@ li{
    
     
 }
+.abc {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 100px;
+}
 /* .intro-text h1{
     font-size: 54px;
     font-weight:500;
