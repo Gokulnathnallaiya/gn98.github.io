@@ -4,8 +4,9 @@
     box-sizing:border-box;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
     background-color:white;
+    
 }
 header{
     
@@ -17,8 +18,12 @@ header{
     
     
 }
+.card-title{
+    font-weight: bold;
+}
 .logo-container,.nav-links{
     display: flex;
+    margin-top: 20px;
 }
 .logo-container {
     
@@ -32,20 +37,23 @@ nav{
 }
 
 .link{
+    color:rgb(175, 119, 157)
     
 }
 .nav-links{
     justify-content: space-evenly;
     list-style: none;
+    margin:20px;
 }
 .logo{
-    font-weight: 400;
+    font-weight: 500;
     margin:5px;
+    color:grey;
 }
 .link{
     text-decoration: none;
     
-    font-weight: 400;
+    font-weight: 500;
     font-weight:bold;
 }
 .link:hover{
@@ -65,6 +73,66 @@ nav{
     
     
 }
+li{
+    margin-top: 30px;
+}
+.companylogo{
+    margin-left:70px;
+    background-color: red;
+    width:50vw;
+    height:50vh;
+}
+.description{
+    margin-left:50px;
+    background-color: green;
+}
+
+.workexp{
+    display: flex;
+    width:90%;
+    margin:auto;
+    min-height: 80vh;
+    align-items:center;
+    animation-name:test;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+
+}
+.card{
+    margin-left:50px;
+}
+.projects{
+    
+    display: flex;
+    width:90%;
+    margin:30px;
+    min-height: 80vh;
+    align-items:center;
+    animation-name:test;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    
+    
+    
+}
+.section2{
+    
+    width:90%;
+    margin:auto;
+    min-height: 80vh;
+    align-items:center;
+    animation-name:test;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    
+
+}
+.btn-primary ,.btn{
+    background:#c36cbb;
+    color:white;
+    border-color: #c36cbb;
+}
+
 .cover-img{
     height:100vh;
     filter: drop-shadow(3px 3px 3px black);
@@ -78,6 +146,17 @@ nav{
     flex:1;
 
 }
+
+.skill{
+    
+    width:100px;
+    height:100px;
+    
+    margin-top: 100px;
+    margin-left: 200px;
+   
+    
+}
 /* .intro-text h1{
     font-size: 54px;
     font-weight:500;
@@ -86,13 +165,20 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 } */
+
+
 .intro-text p{
     margin-top:5px;
     font-size:22px;
     color:#585772;
 
 }
+.intro-text2 p{
+    margin-top:2px;
+    font-size:22px;
+    color:#2f2f3a;
 
+}
 
 .introduction{
     
