@@ -40,6 +40,12 @@ nav{
     color:rgb(175, 119, 157)
     
 }
+.link2{
+    color:rgb(83, 70, 79);
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
 .nav-links{
     justify-content: space-evenly;
     list-style: none;
@@ -57,6 +63,10 @@ nav{
     font-weight:bold;
 }
 .link:hover{
+    color: green;
+    text-decoration: underline;
+}
+.link2:hover{
     color: green;
     text-decoration: underline;
 }
@@ -268,6 +278,15 @@ li{
     height:40%;
 
 }
+.footer{
+    background-color: #D6D6D6;
+    
+    height:35px;
+    text-align: center;
+    justify-items: center;
+    
+
+}
 #name {
     color:rgb(163, 57, 75);
   }
@@ -275,14 +294,16 @@ li{
     content:"";
     animation: spin 5s ease-in infinite;
   }
+
 @keyframes spin {
     10% { content:"Gokulnath"; }
     
     
     50% { content: "a Student"; }
     
-    100%{content:"a Web designer"}
+    100% {content:"a Web designer";}
   }
+
 
 
 
