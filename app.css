@@ -79,10 +79,34 @@ nav{
     animation-name:test;
     animation-duration: 5s;
     animation-timing-function: ease;
-    
-    
-    
+
 }
+@media (max-width: 700px ){
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        margin:auto;
+        margin-top: 100px;
+        min-height: 80vh;
+        align-items:center;
+        animation-name:test;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+    
+    }
+    .nav-links{
+        display: none;
+    }
+    .cover{
+        display: none;
+    }
+
+}
+
+
+
+
 li{
     margin-top: 30px;
 }
@@ -110,8 +134,11 @@ li{
 }
 .card{
     margin-left:50px;
+    width:18rem;
 }
+
 .projects{
+    margin-left: 70px;
     
     display: flex;
     width:90%;
@@ -124,6 +151,39 @@ li{
     
     
     
+}
+.protitle{
+    margin-left:70px;
+}
+@media (max-width: 700px ){
+    .protitle{
+        margin-left:20px;
+        margin-top: 30px;
+    }
+    .heading{
+        color:rgb(175, 119, 157); 
+        font-size: 25px;
+        
+    }
+    .projects{
+    
+        display: flex;
+        flex-direction: column;
+        width:90%;
+        margin-right: 120px;
+        
+        
+        
+        
+        
+    }
+    .card{
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
 }
 .projects2{
     
@@ -221,6 +281,7 @@ li{
 
     
 }
+
 .cta-select{
     border:2px solid #c36cbb;
     background:transparent;
@@ -232,13 +293,14 @@ li{
     margin: 20px 0px 0px 0px;
 
 }
-/* .cta-select:hover{
-    background-color: #c36cbb;
+
+.cta-select:hover{
+    background-color: gray;
     color:white;
-} */
+}
 .cta-add{
     background:#c36cbb;
-    width:150px;
+    width:160px;
     height:50px;
     cursor: pointer;
     font-size:16px;
