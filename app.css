@@ -183,6 +183,9 @@ li{
     margin-top: 50px;
 }
 @media (max-width: 700px ){
+    *{
+        margin-left:3px;
+    }
     .points{
         display:flex;
         margin:20px;
