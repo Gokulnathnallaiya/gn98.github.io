@@ -221,6 +221,9 @@ li{
         font-size: 25px;
         
     }
+    .column{
+        margin-right:100px;
+    }
     .projects{
     
         display: flex;
