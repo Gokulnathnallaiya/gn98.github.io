@@ -259,7 +259,7 @@ li{
         height:50px;
         cursor: pointer;
         font-size:16px;
-        margin: 20px 0px 0px 0px;
+        margin: 20px;
     
     }
     
@@ -275,7 +275,7 @@ li{
         font-size:16px;
         border:none;
         color:white;
-        margin: 20px 0px 0px 20px;
+        margin: 20px;
     
     }
 
