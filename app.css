@@ -86,6 +86,12 @@ nav{
     margin:70px;
 }
 @media (max-width: 700px ){
+    .link2{
+        color:rgb(83, 70, 79);
+        margin-left: 20px;
+        font-weight: bold;
+        
+    }
     .presentation{
         display: flex;
         flex-direction: column;
@@ -189,16 +195,15 @@ li{
         display: none;
     }
     .skillimage{
-        width:50px;
-        height:50px;
+        width:70px;
+        height:70px;
         
         
     }
     .workexp{
         display: flex;
         width:90%;
-        margin-left:20px;
-        margin-top:20px;
+        
         min-height: 80vh;
         align-items:center;
         animation-name:test;
@@ -208,7 +213,7 @@ li{
     }
     .protitle{
         margin-left:30px;
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .heading{
         color:rgb(175, 119, 157); 
@@ -230,7 +235,7 @@ li{
     .card{
         margin-left: 50px;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         width: 90%;
     }
     .cta{
@@ -444,7 +449,7 @@ li{
   }
 
 @keyframes spin {
-    10% { content:"Gokulnath"; }
+    10% { content:"Gokulnath"; }
     
     
     50% { content: "a Student"; }
